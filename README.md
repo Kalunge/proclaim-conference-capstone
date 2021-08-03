@@ -1,5 +1,4 @@
-![backmos](https://user-images.githubusercontent.com/50773868/128030842-8904299b-6f41-41a0-9d64-6a5b183a77a3.png)
-![minprog](https://user-images.githubusercontent.com/50773868/128030866-bd928ec4-5f34-4674-92f7-c4cbddf48375.png)
+
 # proclaim-conference-capstone
 
 - A capstone project to mark completion of Html/Css module at @microverse. It is a conference website for a recurring event in my town. It also contains different information such dates, speakers, program as well as past events.
@@ -35,16 +34,19 @@
 
 ## Live demo link
 
-[capstone](https://kalunge.github.io/proclaim-conference-capstone/)
+[click here for the hosted site](https://kalunge.github.io/proclaim-conference-capstone/)
 
-[screenshot]('./images/mainprog.png')
-[screenshot]('./images/speakers.png')
+## screenshots
+
+![minprog](https://user-images.githubusercontent.com/50773868/128030866-bd928ec4-5f34-4674-92f7-c4cbddf48375.png)
+![Screenshot from 2021-08-03 15-16-14](https://user-images.githubusercontent.com/50773868/128031324-5e60deed-3869-41d7-8a39-d74d8d490c8f.png)
+
 
 ## Built With
 
 - Html
 - CSS
-  -Javascript
+-Javascript
 
 ## Getting Started
 
@@ -52,7 +54,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-html/css/github workflow knowledge
+html/css/Javascript/github-workflow knowledge
 
 ### Setup
 
