@@ -1,3 +1,5 @@
+![backmos](https://user-images.githubusercontent.com/50773868/128030842-8904299b-6f41-41a0-9d64-6a5b183a77a3.png)
+![minprog](https://user-images.githubusercontent.com/50773868/128030866-bd928ec4-5f34-4674-92f7-c4cbddf48375.png)
 # proclaim-conference-capstone
 
 - A capstone project to mark completion of Html/Css module at @microverse. It is a conference website for a recurring event in my town. It also contains different information such dates, speakers, program as well as past events.
