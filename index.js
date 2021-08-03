@@ -12,8 +12,7 @@ const hideMenu = () => {
 
 const checkWidth = () => {
   if (
-    document.documentElement.clientWidth > 767 &&
-    mobileMenu.style.display === 'flex'
+    document.documentElement.clientWidth > 767 && mobileMenu.style.display === 'flex'
   ) {
     mobileMenu.style.display = 'none';
   }
