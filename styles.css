@@ -265,7 +265,7 @@ img:hover {
 .partners {
   margin-top: 0;
   padding-top: 0;
-  background-color: #272a31;
+  background-color: #414246;
 }
 
 .partner-list {
@@ -290,10 +290,6 @@ img:hover {
   color: #fff;
   margin-top: 0.1%;
 }
-
-/* .partners-index {
-  visibility: hidden;
-} */
 
 footer {
   display: flex;
@@ -534,7 +530,7 @@ section {
     margin-top: 5%;
     padding-bottom: 0.5%;
     width: 100%;
-    background-color: #272a31;
+    background-color: #414246;
     padding-top: 2%;
   }
 
@@ -568,6 +564,7 @@ section {
 
   .partners-about {
     display: none;
+    background-color: #414246;
   }
 
   .about-container {
