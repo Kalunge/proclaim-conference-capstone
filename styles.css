@@ -1,7 +1,11 @@
-body {
-  background-color: #d3d3d3;
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #d3d3d3;
 }
 
 .heading {
@@ -293,6 +297,12 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.closeButton {
+  text-align: center;
+  padding: 5%;
+  margin-right: 5%;
 }
 
 .custom {
