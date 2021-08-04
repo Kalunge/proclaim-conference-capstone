@@ -1,7 +1,7 @@
 body {
   background-color: #d3d3d3;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin: 0;
+  padding: 0;
 }
 
 .heading {
@@ -37,7 +37,8 @@ img:hover {
   list-style: none;
 }
 
-.nav-item {
+.nav-item,
+.top-nav-item {
   display: none;
 }
 
@@ -128,6 +129,7 @@ img:hover {
   justify-content: space-around;
   margin-top: 2%;
   margin-bottom: 2%;
+  margin-left: 5%;
 }
 
 .speaker-info {
@@ -257,7 +259,7 @@ img:hover {
 }
 
 .partners {
-  margin-top: 10%;
+  margin-top: 0;
   background-color: #272a31;
 }
 
@@ -271,6 +273,7 @@ img:hover {
   width: 30%;
   font-family: 'cocogoose', sans-serif;
   color: #d3d3d3;
+  background-color: transparent;
 }
 
 .partners li {
@@ -323,7 +326,7 @@ footer {
   align-content: center;
   flex-direction: column;
   width: 35%;
-  margin-top: 5%;
+  margin-top: 0.5%;
   margin-left: 30%;
   padding: 4%;
   border: solid 1px white;
@@ -337,7 +340,7 @@ footer {
 .mobile {
   display: none;
   justify-content: space-between;
-  width: 92%;
+  width: 100%;
   height: 100%;
   position: fixed;
   gap: 2vh;
@@ -359,7 +362,7 @@ footer {
 
 .mobile-item {
   list-style: none;
-  padding: 20%;
+  padding: 10%;
   color: #d3d3d3;
   font-family: 'Lato', sans-serif;
 }
@@ -372,8 +375,16 @@ footer {
   background-color: #ec5242;
 }
 
+.middle {
+  background-color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
-  .nav-item {
+  .nav-item,
+  .top-nav-item {
     list-style: none;
     display: flex;
   }
@@ -393,10 +404,25 @@ footer {
     background-color: #fff;
     padding-bottom: 2.5%;
     padding-top: 2.5%;
+    margin-top: 0;
+  }
+
+  .top-nav {
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-end;
+    background-color: #000;
+    margin-bottom: 0;
+  }
+
+  .top-nav-item {
+    color: white;
+    padding: 0.5%;
   }
 
   .campaign {
     border: solid 5px #ec5242;
+    padding: 0.8%;
   }
 
   .home {
@@ -445,8 +471,18 @@ footer {
     display: none;
   }
 
+  .speaker {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 40%;
+  }
+
   .speakers {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 75%;
     margin-left: 10%;
@@ -470,6 +506,9 @@ footer {
 
   .footer-index {
     visibility: visible;
+    background-color: #fff;
+    margin: 0;
+    padding: 2%;
   }
 
   .heading-about {
@@ -511,7 +550,6 @@ footer {
 
   footer h5 {
     margin-right: 20%;
-    color: #fff;
     font-family: 'lato', sans-serif;
   }
 
@@ -519,10 +557,13 @@ footer {
     background-color: #272a31;
     padding-top: 5%;
     padding-bottom: 5%;
-    opacity: 90%;
     margin-top: 0;
     width: 100%;
     font-family: 'lato', sans-serif;
+  }
+
+  .footer-about h5 {
+    color: #fff;
   }
 
   .mobile {
